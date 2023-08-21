@@ -1,0 +1,542 @@
+/*Polka-Mania 2021 CSS file*/
+
+/* HTML and body main css */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #b3002d;
+    overflow-x: hidden;
+}
+
+/* Header */
+
+/* Autumn leaf banner */
+#leafBanner {
+    position: relative;
+    bottom: 40px;
+    padding-left: 55px;
+    height: 150px;
+    width: 650px;
+}
+
+/* Festival title */
+#titleFestival {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 50px;
+    background-color: #b3002d;
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+
+/* Coming 2021 date text */
+#titleSoon {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 50px;
+    background-color: #b3002d;
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+/* End Header */
+
+/* Navigation */
+
+/* Main navigation */
+nav {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 18px;
+    background-color: #800020;
+    width: inherit;
+    border: 4px solid black;
+    color: white;
+    font-size: 25px;
+}
+
+/* Navigation list item */
+nav li{
+    display: inline-block;
+    float: left;
+    border: 4px solid #138639;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+/* Navigation anchor tag */
+nav a {
+    display: inline-block;
+    padding: 24px;
+    background-color: #800020;
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigation anchor tag on hover */
+nav a:hover {
+    background-color: DarkGreen;
+}
+
+/* Navigation home page link */
+.homePage #homeNavHead {
+    background-color: #b3002d;
+}
+
+/* Navigation tickets page link */
+.ticketsPage #ticketsNavHead {
+    background-color: #b3002d;
+}
+
+
+/* Navigation activities page link */
+.activitiesPage #activitiesNav{
+    background-color: #b3002d;
+}
+
+/* Navigation contact us page link */
+.contactUsPage #contactNavHead{
+    background-color: #b3002d;
+}
+
+/* Navigation vendors page link */
+.vendorsPage #vendorNav{
+    background-color: #b3002d;
+}
+
+/* Navigation logo (polka couple) */
+#imgItem {
+    float: left;
+}
+
+/* Navigation images */
+nav img {
+    width: 200px;
+    height: 150px;
+}
+/* End Navigation */
+
+/* Body */
+
+/* Home page main */
+.homePage main {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Home page header */
+#homeHeader {
+    text-align: center;
+}
+
+/* Contact Us Page */
+
+/* Contact Us page main */
+.contactUsPage main {
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+/* Contact Us page form question box control */
+#questionBox {
+    width: 300px;
+    height: 150px;
+    resize: none;
+}
+
+/* Contact Us page header */
+#contactHeader {
+    text-align: center;
+}
+
+/* Contact Us page body */
+.contactUsPage body {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+/* Contact Us page main */
+.contactUsPage main {
+    text-align: center;
+}
+
+/* Contact Us page contact form labels */
+#contactForm label {
+    display: block;
+    text-align: center;
+}
+
+/* Contact Us page contact form submit button */
+#submitBtnContact {
+    /*margin-left: 88px;*/
+    position: relative;
+    width: 100px;
+    height: 30px;
+}
+
+/* FontAwesome stylesheet reference class */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* FontAwesome icons on hover */
+.fa:hover {
+    opacity: .7;
+}
+
+/* FontAwesome facebook icon */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* FontAwesome twitter icon */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* FontAwesome instagram icon */
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/* FontAwesome google icon */
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+#contactUsSubmissionJBox {
+    border: 2px solid #138639;
+    font-size: 45px;
+    color: #b3002d;
+}
+
+/* Web Satisfaction slider paragraph */
+#websiteSatisfaction {
+    text-align: center;
+}
+
+/* Web Satisfaction slider */
+#webSatisfactionSlider {
+    background-color: #138639;
+    border: 2px solid black;
+    vertical-align: center;
+    width: 750px;
+    margin: auto;
+}
+
+/* Web satisfaction slider percentage value display */
+#displaySatValue {
+    font-size: 22px;
+    text-align: center;
+}
+
+#contactUsTeam {
+    border-top: 4px solid black;
+    padding-top: 4px;
+}
+
+/* End Contact Us Page */
+
+/* Vendors Page */
+
+/* Vendors page body */
+.vendorsPage {
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+/* Vendors page header */
+#vendorHeader {
+    text-align: center;
+}
+
+/* Vendors page polka dancing image */
+#vendorImage {
+    float:right;
+    margin-right: 130px;
+    margin-bottom: 50px;
+    height: 500px;
+    width: 650px;
+    border: 4px solid black;
+}
+
+/* Vendor application form controls without description of business */
+#vendorList, #nameVendorForm, #businessNameVendorForm,
+#emailVendorForm, #numberVendorForm {
+    display: block;
+    text-align: left;
+}
+
+/* Vendor application form description of business control */
+#descriptionResponse {
+    width: 365px;
+    height: 50px;
+    resize: none;
+}
+
+#vendorSubmissionJBox {
+    border: 2px solid #138639;
+    font-size: 45px;
+    color: #b3002d;
+}
+
+/* End Vendors Page */
+
+/* Activities Page */
+
+/* Activities page main */
+.activitiesPage main {
+    font-size: 20px;
+    color: white;
+}
+
+/* Activities page header */
+#activitiesHeader {
+    text-align: center;
+}
+
+/* Excitement slider header */
+#excitementHead {
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+/* Excitement slider */
+#excitementSlider {
+    background-color: #138639;
+    border: 2px solid black;
+    vertical-align: center;
+    width: 750px;
+    margin: auto;
+}
+
+/* Excitement slider percentage value display */
+#exciteValue {
+    font-size: 50px;
+    text-align: center;
+}
+
+/* 100% excitement jBox (goodBox) and not 100% excitement jBox (badBox) */
+#goodBox, #badBox {
+    border: 2px solid #138639;
+    font-size: 45px;
+    color: #b3002d;
+}
+
+/* Activities page gallery images */
+#activitiesGallery img {
+    border: 3px solid black;
+    width: 500px;
+    height: 350px;
+}
+
+/* Activities page gallery */
+#activitiesGallery {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Activities page activity suggestion form */
+#suggestionForm {
+    border-top: 2px solid black;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Activity suggestion form text area control */
+#suggestionBox {
+    width: 300px;
+    height: 150px;
+}
+
+#activitiesSubmissionJBox {
+    border: 2px solid #138639;
+    font-size: 45px;
+    color: #b3002d;
+}
+/* End Vendors Page */
+
+/* Tickets Page */
+
+/* Tickets page main */
+.ticketsPage main {
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
+/* Tickets page header */
+#ticketsHeader {
+    text-align: center;
+}
+
+/* Tickets page ticket purchase form */
+#ticketsForm {
+    display: block;
+    text-align: left;
+    float: left;
+}
+
+/* Ticket purchase form inputs */
+#ticketsForm input {
+    margin-bottom: 10px;
+}
+
+#ticketPurchaseJBox {
+    border: 2px solid #138639;
+    font-size: 45px;
+    color: #b3002d;
+}
+
+/* Colorful ticket figure image */
+#ticketFigure img {
+    border: 3px solid black;
+    width: 500px;
+    height: 450px;
+    float: right;
+}
+/* End Tickets Page */
+
+/* Home Page */
+
+/* Home page types of Polka-dancing and suggested items to bring list */
+.polkaList {
+    list-style-position: inside;
+}
+
+/* Home page image gallery table - table data */
+#galleryTable, #galleryTable td {
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Image gallery thumbnail row for selecting display image */
+#selectorRow img {
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+
+/* Image gallery thumbnail row on hover */
+#selectorRow img:hover {
+    opacity: .5;
+}
+
+/* Image gallery thumbnail row table data */
+#selectorRow td {
+    border: 20px solid black;
+}
+
+/* Image gallery table data in last row for image display */
+#zoomContainer {
+    border: 2px solid black;
+    text-align: center;
+    height: 500px;
+}
+
+/* Image gallery blank image to be changed in zoomContainer */
+#blankImage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 500px;
+    border: 8px solid black;
+}
+
+iframe {
+    height: 300px;
+    width: 450px;
+}
+
+/* End Home Page */
+
+/* Footer */
+
+/* Footer main css */
+footer {
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: #800020;
+    border: 4px solid black;
+    color: white;
+    font-size: 20px;
+}
+
+/* Footer anchor on hover */
+footer a:hover {
+    background-color: DarkGreen;
+}
+
+/* Footer anchor */
+footer a {
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* Footer unordered list */
+footer ul {
+    border: 4px solid #138639;
+    display: inline-block;
+    list-style-type: none;
+}
+
+/* Footer list item */
+footer li {
+    display: inline-block;
+    border: 3px solid #138639;
+}
+
+/* Polka-Mania save the date text */
+.footerDate {
+    float: right;
+    padding-right: 70px;
+}
+
+/* Footer home page link */
+.homePage #homeNavFooter {
+    background-color: #b3002d;
+}
+
+/* Footer tickets page link */
+.ticketsPage #ticketsNavFooter {
+    background-color: #b3002d;
+}
+
+/* Footer contact us page link */
+.contactUsPage #contactNavFooter{
+    background-color: #b3002d;
+}
+
+/* End Footer */
