@@ -23,7 +23,6 @@ html, body {
 
 /* Festival title */
 #titleFestival {
-    display: inline-block;
     margin-left: 20px;
     font-size: 50px;
     background-color: #b3002d;
@@ -34,7 +33,6 @@ html, body {
 
 /* Coming 2021 date text */
 #titleSoon {
-    display: inline-block;
     margin-right: 20px;
     font-size: 50px;
     background-color: #b3002d;
@@ -61,8 +59,8 @@ nav {
 
 /* Navigation list item */
 nav li{
-    display: inline-block;
     float: left;
+    display: inline-block;
     border: 4px solid #138639;
     padding-left: 24px;
     padding-right: 24px;
